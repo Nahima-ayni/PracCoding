@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>Documentation</h1>
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#What you should already know">What you should already know</a></li>
+            <li><a class="nav-link" href="#JSX">JSX</a></li>
+            <li><a class="nav-link" href="#Components">Components</a></li>
+            <li><a class="nav-link" href="#Props">Props</a></li>
+        </ul> 
+    </nav>
+    <main id="main-doc">
+        <section class="main-section">
+            <header id="introduction">
+                <h1>Introduction</h1>
+                <p>React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.</p>
+                <p>React allows developers to create large web applications that can update and render efficiently in response to data changes. The core of React is the concept of components, which can be composed to build complex user interfaces.</p>
+                <ul>
+                    <li>React enables developers to create reusable UI components that can handle their own state.</li>
+                    <li>React follows a declarative approach, making it easier to reason about the application state and manage the UI updates.</li>
+                </ul>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="What_you_should_already_know">
+                <h1>What you should already know</h1>
+                <p>This guide assumes you have the following basic background:</p>
+                <ul>
+                    <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+                    <li>Good working knowledge of HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).</li>
+                    <li>Some programming experience with JavaScript. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+                </ul>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="JSX">
+                <h1>JSX</h1>
+                <p>JSX is a syntax extension for JavaScript that looks similar to XML or HTML. JSX is used with React to describe what the UI should look like. By using JSX, you can write the structure of the user interface directly within the JavaScript code.</p>
+                <p>JSX makes it easier to write and add HTML in React. It also helps to see the layout of the UI within the JavaScript code, making it more readable and maintainable.</p>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="Components">
+                <h1>Components</h1>
+                <p>Components are the building blocks of any React application. They are independent, reusable pieces of code that define how a certain part of the UI should look and behave. Components can be either class-based or function-based.</p>
+                <p>Class-based components are ES6 classes that extend the `React.Component` class. Function-based components are simply JavaScript functions that return JSX.</p>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="Props">
+                <h1>Props</h1>
+                <p>Props (short for properties) are a mechanism for passing data from parent to child components. Props are read-only and cannot be modified by the child component receiving them. They help make components reusable by allowing them to receive different data inputs.</p>
+                <p>To use props, you pass them to the child component as attributes in the JSX syntax.</p>
+            </header>
+        </section>
+    </main>
+</body>
+</html>

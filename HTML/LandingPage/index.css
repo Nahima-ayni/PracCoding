@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+    font-family: "Poppins";
+
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+  }
+  
+
+  .nav .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+  
+  .nav .nav-link:hover {
+    color: burlywood;
+    text-decoration: none;
+  }
+  
+  .nav .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.2rem;
+  }
+  
+  .nav .nav-item:hover .nav-link::before {
+    background-color: bisque;
+    width: 100%;
+  }
+
+  .nav-link {
+    margin-left: 250px;
+  }

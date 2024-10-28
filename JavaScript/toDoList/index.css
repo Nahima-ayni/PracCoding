@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 242, 225);
+}
+
+h1 {
+    text-align: center;
+}
+
+#task-input,
+#add-button {
+    padding: 15px;
+    border: 2 solid rgb(27, 24, 24);
+    background-color: white;
+    font-family: "Poppins";
+    font-size: medium;
+    margin-left: 100px;
+}
+
+#add-button {
+    justify-content: flex-end;
+    background-color: rgb(180, 214, 252);
+}
+
+
+
